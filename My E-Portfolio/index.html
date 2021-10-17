@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-title"><a href="#">Ishaque Surya</a></div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#connectwithme">Connect With Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- about me -->
+    <div id="aboutMe" class="aboutme">
+        <div class="profileimage">
+          <i class="fa fa-user-circle profileicon"></i>
+        </div>
+        <div class="description">
+          <h1>Hey, I'm Ishaque</h1>
+          <h3>
+            I'm a tech enthusiast who loves to program and develop stuff.
+            Currently, I am pursuing my Bachelor's degree from Vidyalankar
+            Institute of Technology
+          </h3>
+          <button id="resume">Check Out My Resume</button>
+        </div>
+      </div>
+
+       <!-- skills -->
+    <div id="skills" class="skills">
+        <h2 id="text">My Skills</h2>
+        <div class="skillsprogress">
+          <div class="webdev">
+            <h2>Web Development</h2>
+            <br />
+  
+            <div class="opt">
+              <h3>HTML:</h3>
+              <h3>85%</h3>
+            </div>
+            <div class="pb pb1"><div id="html" class="pb pb2"></div></div>
+  
+            <div class="opt">
+              <h3>CSS:</h3>
+              <h3>60%</h3>
+            </div>
+            <div class="pb pb1"><div id="css" class="pb pb2"></div></div>
+  
+            <div class="opt">
+              <h3>JavaScript:</h3>
+              <h3>65%</h3>
+            </div>
+            <div class="pb pb1"><div id="js" class="pb pb2"></div></div>
+  
+            <div class="opt">
+              <h3>PHP:</h3>
+              <h3>75%</h3>
+            </div>
+            <div class="pb pb1"><div id="php" class="pb pb2"></div></div>
+  
+            <div class="opt">
+              <h3>MySQL:</h3>
+              <h3>75%</h3>
+            </div>
+            <div class="pb pb1"><div id="mysql" class="pb pb2"></div></div>
+          </div>
+          <div class="proglang">
+            <h2>Programming Languages</h2>
+            <br />
+  
+            <div class="opt">
+              <h3>Java:</h3>
+              <h3>70%</h3>
+            </div>
+            <div class="pb pb1"><div id="java" class="pb pb2"></div></div>
+  
+            <div class="opt">
+              <h3>Python:</h3>
+              <h3>70%</h3>
+            </div>
+            <div class="pb pb1"><div id="python" class="pb pb2"></div></div>
+  
+            <div class="opt">
+              <h3>C:</h3>
+              <h3>60%</h3>
+            </div>
+            <div class="pb pb1"><div id="c" class="pb pb2"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- education -->
+    <div class="education" id="education">
+        <h2 id="text">My Education</h2>
+        <div class="educationcards">
+          <div class="educationcard">
+            <div class="educatoincard-body">
+              <h2>Bachelor of Engineering (Computer)</h2><br>
+              <h3>Vidyalankar Institute of Technology</h3>
+              <p>January 2021 - Present</p>
+            </div>
+          </div>
+          <div class="educationcard">
+            <div class="educationcard-body">
+              <h2>Diploma in Computer Engineering</h2><br>
+              <h3>Vidyalankar Polytechnic</h3>
+              <p>July 2017 - December 2020</p>
+            </div>
+          </div>
+          <div class="educationcard">
+            <div class="educationcard-body">
+              <h2>SSC</h2><br>
+              <h3>Don Bosco High School and Junior College</h3>
+              <p>July 2007 - May 2017</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- projects -->
+      <div class="projects" id="projects">
+        <h2 id="text">My Projects</h2>
+        <div class="projectcards">
+          <div class="projectcard">
+            <img class="projectcard-img" src="images/doctor patient portal.png" />
+            <div class="projectcard-body">
+              <h2>Doctor Patient Portal</h2>
+              <p>
+                A web application that allows patients to book doctor appointments
+                online
+              </p>
+              <button id="projectcard-button">
+                <a href="https://www.github.com/IshaqueSurya" target="_new"
+                  >Explore this project</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="projectcard">
+            <img class="projectcard-img" src="images/lost and found.png" />
+            <div class="projectcard-body">
+              <h2>Lost and Found</h2>
+              <p>
+                An android application that allows users to report their lost
+                items. Or the items they found
+              </p>
+              <button id="projectcard-button">
+                <a href="https://www.github.com/IshaqueSurya" target="_new"
+                  >Explore this project</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="projectcard">
+            <img class="projectcard-img" src="images/telephone directory.png" />
+            <div class="projectcard-body">
+              <h2>Telephone Directory</h2>
+              <p>
+                A web application allows users to save, search, edit, and delete
+                their contacts information
+              </p>
+              <button id="projectcard-button">
+                <a href="https://www.github.com/IshaqueSurya" target="_new"
+                  >Explore this project</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- connect with me -->
+      <div class="connectwithme" id="connectwithme">
+        <hr />
+        <h2 id="text">Connect with me at the following platforms</h2>
+        <div class="links">
+          <a
+            href="https://www.linkedin.com/in/ishaque-surya-87509421b/"
+            target="_new"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/muhammadishaque.surya.1/"
+            target="_new"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://www.instagram.com/_ishaquesurya_/" target="_new">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:ishaque.78692.is@gmail.com" target="_new">
+            <i class="far fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <br><br><br><br>
+      <div class="credits" style="font-size: 10px;">
+
+          <div>Telephone icon made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div>Lost and Found icon made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div>Doctor icon made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>          
+        </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
